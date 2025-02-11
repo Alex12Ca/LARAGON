@@ -1,0 +1,40 @@
+0d58 start_logger              154 ---- 2025/01/08 20:13:31.998 -------------------------------------------------
+0d58 start_logger              160 Host process is 'cmd.exe' (pid 3416)
+0d58 start_logger              164 DLL path is 'C:\laragon\bin\cmder\vendor\clink'
+0d58 start_logger              178 Windows version 10.0.22631 (x64)
+0d58 start_logger              181 Clink version 1.2.46.69fc92 (x64)
+0d58 hook_setter::hook_setter  156 >>> Started hook transaction.
+0d58 hook_setter::attach_iat   313 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF684D70000.
+0d58 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0d58 find_iat                  121 Found import at 00007FF684DA6E98 (value is 00007FFE952B8EC0).
+0d58 hook_setter::attach_iat   313 Attempting to hook WriteConsoleW in IAT for module 00007FF684D70000.
+0d58 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0d58 find_iat                  121 Found import at 00007FF684DA6AF0 (value is 00007FFE95282E40).
+0d58 hook_setter::attach_iat   313 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF684D70000.
+0d58 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0d58 find_iat                  121 Found import at 00007FF684DA6E68 (value is 00007FFE9526B7B0).
+0d58 hook_setter::commit       204 <<< Hook transaction committed.
+0d58 hook_setter::hook_setter  156 >>> Started hook transaction.
+0d58 hook_setter::detach_iat   356 Attempting to unhook 00007FFE3639ADF0 from GetEnvironmentVariableW in IAT for module 00007FF684D70000.
+0d58 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0d58 find_iat                  121 Found import at 00007FF684DA6E68 (value is 00007FFE3639ADF0).
+0d58 hook_setter::commit       204 <<< Hook transaction committed.
+0d58 hook_setter::hook_setter  156 >>> Started hook transaction.
+0d58 hook_setter::attach_iat   313 Attempting to hook ReadConsoleW in IAT for module 00007FF684D70000.
+0d58 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0d58 find_iat                  121 Found import at 00007FF684DA6AE8 (value is 00007FFE952EE320).
+0d58 hook_setter::commit       204 <<< Hook transaction committed.
+0d58 reset_handle              145 resetting mismatched stdin handle
+0d58 reset_handle              145 resetting mismatched stdout handle
+0d58 reset_handle              145 resetting mismatched stderr handle
+0d58 win_screen_buffer::begin  227 Using native terminal support; found 'ConEmuHk64.dll'.
+0d58 reset_handle              145 resetting mismatched stdout handle
+0d58 reset_handle              145 resetting mismatched stderr handle
+0d58 history_db::initialise   1268 master bank ctag: |CTAG_1663167284_18455859_4204_0
+0d58 history_db::compact      1492 History:  3 active, 0 deleted
+0d58 reset_handle              145 resetting mismatched stdout handle
+0d58 reset_handle              145 resetting mismatched stderr handle
+0d58 history_db::compact      1492 History:  3 active, 1 deleted
+0d58 reset_handle              145 resetting mismatched stdout handle
+0d58 reset_handle              145 resetting mismatched stderr handle
+0d58 history_db::compact      1492 History:  3 active, 2 deleted

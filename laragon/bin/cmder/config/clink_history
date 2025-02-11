@@ -1,0 +1,6 @@
+|CTAG_1663167284_18455859_4204_0
+|d inventory
+dir
+|hp artisan key:generate
+cd inventory
+php artisan key:generate
